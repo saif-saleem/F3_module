@@ -23,7 +23,7 @@ async function fetchLocationInfo(ip) {
     
     
     // Navigate to another page after storing the data
-    location.href = "http://127.0.0.1:5500/index2.html";
+    location.href = "/index2.html";
     
     // You can also showLocationOnMap(lat, lon) here if needed
 }
