@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col1{
+    display: flex;
+}
+
+.col2{
+    display: flex;
+}
+.up{
+    background-color: black;
+}
+
+.head{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.lat{
+    width: 25%;
+}
+.city{
+    width: 25%;
+}
+.org{
+    width: 25%;
+}
+.long{
+    width: 25%;
+}
+.hostname{
+    width: 25%;
+}
+.region{
+    width: 25%;
+}
+
+.key{
+    font-family: 'Inter', sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(184, 188, 204, 0.5);
+
+
+}
+.value{
+    font-family: 'Montserrat', sans-serif;
+   
+font-size: 20px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(184, 188, 204, 1);
+}
+
+.adres{
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(184, 188, 204, 0.5);
+
+}
+
+#adress_value{
+    font-family: 'Montserrat', sans-serif;
+   
+font-size: 22px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(184, 188, 204, 1);
+}
+
+.current{
+    font-family: 'Montserrat', sans-serif;
+font-size: 35px;
+padding-bottom: 40px;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(184, 188, 204, 1);
+
+
+}
+
+.map{
+    background: rgba(87, 90, 133, 1);
+
+}
+
+.container{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+}
+
+.container2{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px; 
+}
+
+.info{
+    background-color: black;
+}
+
+.down{
+    background-color: black;
+}
+
+.container3{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px; 
+}
+
+.searchbar{
+    margin-bottom: 60px;
+display: flex;
+height: 45px;
+width: 100%;
+}
+
+#search_bar{
+height: 100%;
+width: 96%;
+margin: auto;
+background-color: transparent ;
+border: none;
+color: white;
+}
+
+.card_container{
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 2fr 50%;
+}
+
+.card{
+    border-radius: 7px;
+    padding: 20px;
+    background: rgba(87, 90, 133, 1);
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+color: rgba(184, 188, 204, 1);
+
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+

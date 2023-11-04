@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+         <script>
+                        
+            $.getJSON("https://api.ipify.org?format=json", function(data) {
+               
+                $("#ip").html(data.ip);
+            })
+            </script>
+</head>
+<body>
+    <section class="hero">
+    <section class="left">
+        <div style="padding-left: 40px; padding-right: 40px; padding-top: 30px;">
+        <div class="head">
+        <p class="heading">Post Office Application.</p>
+        <p class="text">This Application Allows you to extract information about the nearest Post Offices, based on your location.</p>
+    </div>
+    <div class="pic" >
+        <img src="./pic1.svg" alt="" style="    height: 100%;">
+    </div>
+</div>
+    </section>
+    <section class="right">
+        <div class="cont" style="display: contents;">
+        <p class="address">Your Current IP Address is <span id="ip"></span></p>
+        <button id="start">Get Started</button>
+    </div>
+    </section>
+</section>
+
+
+
+
+
+<script src="./script2.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

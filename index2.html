@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+         <script>
+                        
+            $.getJSON("https://api.ipify.org?format=json", function(data) {
+               
+                $("#adress_value").html(data.ip);
+            })
+            </script>
+
+
+</head>
+<body>
+    <section class="up">
+        <div class="head">
+            <div class="ipadd"><span class="adres">IP Address :</span> <span class="value" id="adress_value"></span></div>
+            <div class="coordinates">
+                <div class="col1">
+                    <div class="lat"><span class="key">Lat:</span> <span class="value" id="lat_value"></span></div>
+                    <div class="city"><span class="key">City:</span><span class="value" id="city_value"></span></div>
+                    <div class="org"><span class="key">Organisation:</span><span class="value" id="org_value"></span></div>
+                </div>
+                <div class="col2">
+                    <div class="long"><span class="key">Long:</span> <span class="value" id="long_value"></span></div>
+                    <div class="region"><span class="key">Region:</span><span class="value" id="region_value"></span></div>
+                    <div class="hostname"><span class="key">Hostname:</span><span class="value" id="hostname_value"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <p class="current">Your Current Location</p>
+            <div class="mapcont">
+                <iframe class="map" width="1474" height="500" frameborder="0"  src="https://maps.google.com/maps?q=28.6542, 77.2373&output=embed"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container2">
+        <div class="current">More Information About You</div>
+        <div class="zone">
+            <div class="timezone"><span class="key">Time Zone: </span><span class="value" id="timezone"></span></div>
+            <div class="timezone"><span class="key">Date And Time: </span><span class="value" id="date"></span><span class="value" id="time"></span></div>
+            <div class="timezone"><span class="key">Pincode: </span><span class="value" id="pin"></span></div>
+            <div class="timezone"><span class="key">Message: </span><span class="value" id="mess"></span></div>
+        </div>
+    </div>
+    </section>
+
+    <section class="down">
+        <div class="container3">
+            <div class="current">Post Offices Near You</div>
+            <div class="searchbar">
+                <label for="search" style="display: flex;
+                    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+                height: auto;
+                align-items: center;
+                border-radius: 7px;
+                border: 3px solid rgba(87, 90, 133, 1);
+                height: 100%;
+                width: 100%;">
+                    <img src="./pic2.svg" alt="" style="    height: 60%;">
+                    <input type="text" id="search_bar" placeholder="         Search By Name">
+                </label>
+            </div>
+
+
+            <div class="card_container">
+                <!-- <div class="card">
+                    <div class="name"><span class="key2" id="name2">Name:  </span><span class="value2" id="name2_value"></span></div>
+                    <div class="name"><span class="key2" id="branch2">Branch Type:  </span><span class="value2" id="branch2_value"></span></div>
+                    <div class="name"><span class="key2" id="delivery2">Delivery Status:  </span><span class="value2" id="delivery2_value"></span></div>
+                    <div class="name"><span class="key2" id="district2">District:  </span><span class="value2" id="district2_value"></span></div>
+                    <div class="name"><span class="key2" id="division2">Division:  </span><span class="value2" id="division2_value"></span></div>
+                </div> -->
+            </div>
+      
+
+        </div>
+    </section>
+
+
+    <script src="./script2.js"></script>
+</body>
+</html>

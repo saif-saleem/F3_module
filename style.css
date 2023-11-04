@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    background-color: black;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: rgba(87, 90, 133, 1);
+
+}
+
+.heading{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(87, 90, 133, 1);
+
+}
+
+.text{
+    margin-bottom: 120px;
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(184, 188, 204, 1);
+
+}
+
+.address{
+    font-family: 'Inter', sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color:rgba(184,188,204,1);
+
+
+}
+
+#ip{
+    color:rgba(255,255,255,1);
+}
+
+#start{
+    margin-top: 20px;
+    width: 300px;
+height: 50px;
+background-color: transparent;
+color: rgba(184, 188, 204, 1);  
+border-radius: 10px;
+
+border: 2px solid rgba(184, 188, 204, 1);
+
+}
